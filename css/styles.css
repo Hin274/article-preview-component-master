@@ -1,5 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(210, 46%, 95%);
+  margin: 4rem 0;
+  font-family: 'Manrope', sans-serif;
+  font-size: 13px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  width: 21rem;
+}
+
+.img-header {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+  height: 13rem;
+  object-position: 50% 30%;
+}
+
+.content {
+  padding: 1rem 2rem;
+}
+
+.content h1 {
+  font-size: 17px;
+  padding: 1rem 0;
+}
+
+.byline {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 3rem;
+}
+
+.byline div {
+  margin-left: 1rem;
+  flex-basis: 100%;
+}
+
+h1,
+address {
+  color: hsl(217, 19%, 35%);
+  font-style: normal;
+  font-weight: 700;
+}
+
+p {
+  color: hsl(214, 17%, 51%);
+  font-weight: 500;
+  width: 16rem;
+}
+time {
+  color: hsl(212, 23%, 69%);
+}
+
+button {
+  border-style: none;
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin-left: 3rem;
+  cursor: pointer;
 }
 
 .attribution {
@@ -9,4 +90,8 @@
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+footer {
+  margin-top: 1rem;
 }
