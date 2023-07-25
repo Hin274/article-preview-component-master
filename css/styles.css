@@ -1,3 +1,5 @@
+/* Mobile styles below */
+
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
 
 * {
@@ -26,7 +28,7 @@ body {
   background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
   min-width: 16rem;
-  max-width: 30rem;
+  max-width: 25rem;
 }
 
 .img-box {
@@ -37,16 +39,12 @@ body {
   width: 100%;
   object-fit: cover;
   border-radius: 10px 10px 0px 0px;
-  height: 13rem;
-  object-position: 50% 30%;
+  height: 14rem;
+  object-position: top;
 }
 
 .content {
-  padding: 2rem 0rem 1rem 0rem;
-}
-
-.content-box {
-  padding: 0rem 2rem;
+  padding: 2rem 2rem 1rem 2rem;
 }
 
 .content h1 {
@@ -55,10 +53,11 @@ body {
 }
 
 .byline {
-  padding: 1rem 0rem;
+  padding: 1rem 2rem;
   display: flex;
   align-items: center;
   gap: 1rem;
+  position: relative;
 }
 
 .profile-pic {
@@ -66,7 +65,7 @@ body {
   width: 3rem;
 }
 
-.byline div {
+.author {
   flex-basis: 100%;
 }
 
@@ -80,17 +79,21 @@ address {
 p {
   color: hsl(214, 17%, 51%);
   font-weight: 500;
+}
+
+.content p {
   padding-right: 0.8rem;
 }
 time {
   color: hsl(212, 23%, 69%);
 }
 
-button {
+.share-button {
   border-style: none;
   border-radius: 50%;
   padding: 0.5rem;
   cursor: pointer;
+  position: relative;
 }
 
 .attribution {
@@ -105,6 +108,43 @@ button {
 footer {
   margin-top: 1rem;
 }
+
+.social-box {
+  position: absolute;
+  background-color: hsl(217, 19%, 35%);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0px 0px 10px 10px;
+  width: 100%;
+  top: 1rem;
+  left: 0;
+}
+
+.social-box p {
+  color: hsl(212, 23%, 69%);
+  flex-basis: 40%;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-basis: 60%;
+}
+
+.social-box .share-button {
+  background-color: hsl(214, 17%, 51%);
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+/* Styles below for desktop view */
 
 @media (min-width: 1339px) {
   .container {
@@ -124,6 +164,25 @@ footer {
   }
 
   .byline {
-    padding: 0rem 0rem 1rem 0rem;
+    padding: 0rem 2rem 1rem 2rem;
+  }
+
+  .social-box {
+    top: -70px;
+    left: 300px;
+    width: 50%;
+    border-radius: 10px;
+    filter: drop-shadow(hsl(214, 17%, 51%) 0 2px 3px);
+  }
+
+  .social-box::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -20px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: hsl(217, 19%, 35%) transparent transparent transparent;
   }
 }
