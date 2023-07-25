@@ -20,15 +20,19 @@ Users should be able to:
 ### Screenshot
 
 Mobile layout
+<br>
 ![mobile layout screenshot](./screenshots/mobile-layout.png)
 
 Mobile layout Share icon clicked
+<br>
 ![mobile layout share icon clicked screenshot](./screenshots/mobile-layout-active.png)
 
 Desktop layout
+<br>
 ![desktop layout screenshot](./screenshots/Desktop-layout.png)
 
 Desktop layout Share icon clicked
+<br>
 ![desktop layout share icon clicked screenshot](./screenshots/Desktop-layout-active.png)
 
 ### Links
