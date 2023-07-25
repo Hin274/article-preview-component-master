@@ -37,16 +37,17 @@
           <address rel="author"> Michelle Appleton</address>
           <time pubdate datetime="2020-06-28">28 Jun 2020</time>
         </div>
-        <button class="share-button" aria-label="Share"><img src="./images/icon-share.svg" alt="icon-share"></button>
-        <div class="social-box">
+        <button onclick="showSocial()" class="share-button" aria-label="Share"><img src="./images/icon-share.svg"
+            alt="icon-share"></button>
+        <div class="social-box hide">
           <p>S H A R E</p>
           <div class="socials">
             <img src="./images/icon-facebook.svg" alt="icon-facebook">
             <img src="./images/icon-twitter.svg" alt="icon-twitter">
             <img src="./images/icon-pinterest.svg" alt="icon-pinterest">
           </div>
-          <button class="share-button" aria-label="Share"><img src="./images/icon-share-active.svg"
-              alt="icon-share-active"></button>
+          <button onclick="showSocial()" class="share-button" id="share-button-active" aria-label="Share"><img
+              src="./images/icon-share-active.svg" alt="icon-share-active"></button>
         </div>
       </div>
 
@@ -57,6 +58,8 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://www.frontendmentor.io/profile/Hin274">Chong Hin Yu</a>.
   </footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
