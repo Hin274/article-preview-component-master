@@ -138,10 +138,6 @@ footer {
   background-color: hsl(214, 17%, 51%);
 }
 
-.show {
-  display: block;
-}
-
 .hide {
   display: none;
 }
