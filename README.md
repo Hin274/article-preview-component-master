@@ -26,10 +26,10 @@ Mobile layout Share icon clicked
 ![mobile layout share icon clicked screenshot](./screenshots/mobile-layout-active.png)
 
 Desktop layout
-![desktop layout screenshot](./screenshots/desktop-layout.png)
+![desktop layout screenshot](./screenshots/Desktop-layout.png)
 
-Mobile layout Share icon clicked
-![desktop layout share icon clicked screenshot](./screenshots/desktop-layout-active.png)
+Desktop layout Share icon clicked
+![desktop layout share icon clicked screenshot](./screenshots/Desktop-layout-active.png)
 
 ### Links
 
